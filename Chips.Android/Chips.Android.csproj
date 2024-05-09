@@ -8,8 +8,8 @@
     <PackageId>Chips.Android</PackageId>
     <PackageProjectUrl>https://github.com/AlexeyBuryanov/Chips.Android</PackageProjectUrl>
     <RepositoryUrl>https://github.com/AlexeyBuryanov/Chips.Android</RepositoryUrl>
-    <Description>The CardPointe Mobile Android SDK seamlessly connects your Android applications to CardSecure for tokenization of customer card data. Port for .NET 8.</Description>
-    <Version>1.0.0</Version>
+    <Description>Port for .NET 8.</Description>
+    <Version>1.0.1</Version>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Authors>Oleksii Burianov</Authors>
     <NeutralLanguage>en-US</NeutralLanguage>
