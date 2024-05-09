@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>      
+    <TargetFramework>net8.0-android</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <AssemblyName>Chips.Android</AssemblyName>
+    <RootNamespace>Chips.Android</RootNamespace>
+    <PackageId>Chips.Android</PackageId>
+    <PackageProjectUrl>https://github.com/AlexeyBuryanov/Chips.Android</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/AlexeyBuryanov/Chips.Android</RepositoryUrl>
+    <Description>The CardPointe Mobile Android SDK seamlessly connects your Android applications to CardSecure for tokenization of customer card data. Port for .NET 8.</Description>
+    <Version>1.0.0</Version>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>Oleksii Burianov</Authors>
+    <NeutralLanguage>en-US</NeutralLanguage>
+    <PackageTags>net8-android;android;chips;nachos</PackageTags>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\LICENSE">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+</Project>

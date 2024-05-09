@@ -1,0 +1,6 @@
+﻿<metadata>
+    <!--<attr path="/api/package[@name='com.hootsuite.nachos.tokenizer']/class[@name='SpanChipTokenizer']/method[@name='findAllChips' and count(parameter)=3 and parameter[1][@type='int'] and parameter[2][@type='int'] and parameter[3][@type='android.text.Spanned']]" name="managedReturn">Com.Hootsuite.Nachos.Chip.IChip[]</attr>-->
+    <!--<attr path="/api/package[@name='com.hootsuite.nachos.tokenizer']/class[@name='SpanChipTokenizer']/method[@name='findAllChips' and count(parameter)=3 and parameter[1][@type='int'] and parameter[2][@type='int'] and parameter[3][@type='android.text.Spanned']]" name="managedName">fillAllChipsNew</attr>-->
+
+    <remove-node path="/api/package[@name='com.hootsuite.nachos.tokenizer']/class[@name='SpanChipTokenizer']"/>
+</metadata>
