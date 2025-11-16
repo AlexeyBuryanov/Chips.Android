@@ -1,6 +1,6 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>      
-    <TargetFramework>net8.0-android</TargetFramework>
+    <TargetFramework>net10.0-android</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <AssemblyName>Chips.Android</AssemblyName>
@@ -8,14 +8,17 @@
     <PackageId>Chips.Android</PackageId>
     <PackageProjectUrl>https://github.com/AlexeyBuryanov/Chips.Android</PackageProjectUrl>
     <RepositoryUrl>https://github.com/AlexeyBuryanov/Chips.Android</RepositoryUrl>
-    <Description>Port for .NET 8.</Description>
-    <Version>1.0.1</Version>
-    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Description>Port for .NET 10.</Description>
+    <Version>1.1.0</Version>
+    <PackageVersion>1.1.0</PackageVersion>
     <Authors>Oleksii Burianov</Authors>
     <NeutralLanguage>en-US</NeutralLanguage>
-    <PackageTags>net8-android;android;chips;nachos</PackageTags>
+    <PackageTags>net10-android;android;chips;nachos</PackageTags>
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
     <PackageReadmeFile>README.md</PackageReadmeFile>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
   </PropertyGroup>
 
   <ItemGroup>
